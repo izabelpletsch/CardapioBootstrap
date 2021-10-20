@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cardápio - Saveur Rouge</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body class="estilocorpo">
+        <div class="container">
+            <header class="text-center">
+                <img width="200px" src="img/saveurlogo.png">
+            </header>
+
+            <div class="row">
+                <h1 class="vermelho fontemontserrat">Pratos</h1>
+
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/ratatouille.jpg" alt="Ratatouille">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ratatouille</h5>
+                                    <p class="card-text">Berinjela, abobrinha, tomate e pimentão amarelo são cortados em fatias e ensopados.</p>
+                                    <strong>R$ 50,00</strong>
+                                </div>
+                                
+                                <div class="card-footer">                 
+                                    <input type="radio" name="pratoprincipal" id="ratatouille" value="ratatouille">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/coqauvin.jpeg" alt="Coq Au Vin">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Coq Au Vin</h5>
+                                    <p class="card-text">Cozido de frango ao vinho acompanhado de bacon, cogumelos e cenoura.</p>
+                                    <strong>R$ 50,00</strong>
+                                </div>
+                                
+                                <div class="card-footer">                 
+                                    <input type="radio" name="pratoprincipal" id="coqauvin" value="coqauvin">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mt-3" style="width: 18rem;">
+                                <img class="card-img-top" src="img/tartare.jpg" alt="Tartare">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Steak Tartare</h5>
+                                    <p class="card-text">Pontas de filé mignon picadas e incrementadas com pepino em conserva, alcaparras, cebola, mostarda, molho inglês, azeite e outros temperos.</p>
+                                    <strong>R$ 50,00</strong>
+                                </div>
+                                
+                                <div class="card-footer">       
+                                    <input type="radio" name="pratoprincipal" id="tartare" value="tartare">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-3" style="width: 18rem;">
+                                <img class="card-img-top" src="img/filet.jpg" alt="Filet">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Filet au Poivre</h5>
+                                    <p class="card-text">Filé mignon acompanhado de um delicioso molho de pimenta verde.</p>
+                                    <strong>R$ 50,00</strong>
+                                </div>
+                                
+                                <div class="card-footer">       
+                                    <input type="radio" name="pratoprincipal" id="filet" value="filet">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <aside class="col text-light fundoescuro p-3">
+
+            <form>
+                <h3 class="fontemontserrat">Informações do Cliente</h3>
+                    <div class="form-group row mb-1">
+                        <label class="col-sm-2 col-form-label" for="nome">Nome</label> 
+                        <div class="col-sm-10">
+                            <input class="form-control" id="nome" type="textarea"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-1">
+                        <label class="col-sm-2 col-form-label" for="email">E-mail</label> 
+                        <div class="col-sm-10">
+                            <input class="form-control" id="email" type="textarea"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-1">
+                        <label class="col-sm-2 col-form-label" for="telefone">Telefone</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="telefone" type="textarea"/>
+                        </div>
+                    </div>
+
+                <h3 class="mt-3 fontemontserrat">Acompanhamentos</h3>
+                <h5 class="text-muted">Um ou mais</h5>
+
+                    <input type="checkbox" class="form-check-input" id="batatas" value="batatas">
+                    <label for="batatas" class="form-check-label">Batatas Dauphinoise</label> </br>
+                    
+                    <input type="checkbox" class="form-check-input" id="saladatomate" value="saladatomate">
+                    <label for="saladatomate" class="form-check-label">Salada de Tomate Veneziano</label> </br>
+
+                    <input type="checkbox" class="form-check-input" id="pure" value="pure">
+                    <label for="pure" class="form-check-label">Puré de Mandioquinha</label> </br>
+
+                    <input type="checkbox" class="form-check-input" id="salada" value="salada">
+                    <label for="salada" class="form-check-label">Salada Grega</label> </br>
+
+                    <input type="checkbox" class="form-check-input" id="ovos" value="ovos">
+                    <label for="ovos" class="form-check-label">Ovos de Codorna</label>
+
+                <h3 class="mt-3 fontemontserrat">Observações</h3>
+                    <textarea style="width: 95%; height: 50px" class="caixatexto" aria-multiline="true"></textarea>
+                
+                <h3 class="mt-3 fontemontserrat">Forma de Pagamento</h3>
+                    <input type="radio" class="form-check-input" name="pagamento" id="credito" value="credito">
+                    <label for="credito" class="form-check-label">Cartão de Crédito</label>
+                    
+                    <input type="radio" class="form-check-input" name="pagamento" id="debito" value="debito">
+                    <label for="debito" class="form-check-label">Cartão de Débito</label>
+
+                    <input type="radio" class="form-check-input" name="pagamento" id="dinheiro" value="dinheiro">
+                    <label for="dinheiro" class="form-check-label">Dinheiro</label>
+
+                    <h4 class="mt-3 font-weight-bold text-success">Total: R$ 243,50</h4>
+                    <button class="btn btn-success mt-1">Confirmar</button>
+            </form>
+            </aside>
+            </div>
+
+        </div>
+
+        <footer class="bg-dark text-light p-3 mt-5 text-center">
+           <span>© 2021 Izabel Cristina Pletsch - ADS, FATEC Itu</span> 
+        </footer>
+    </body>
+</html>

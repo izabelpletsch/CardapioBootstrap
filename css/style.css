@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+.estilocorpo {
+    background: url(../img/fundocomida.png) fixed;
+    background-size: cover;
+}
+
+.vermelho {
+    color: #cf3434;
+}
+
+.fontemontserrat {
+    font-family: Montserrat;
+}
+
+.fundoescuro {
+    background: #05040699;
+    border-radius: 5px;
+}

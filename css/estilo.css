@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: Open Sans;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    margin-bottom: 0px;
+    margin-top: 0.3em;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+body {
+    color: #fff;
+    font-family: Montserrat;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: url(img/foodbg.jpg);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background: #5d5d5d4d;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.card > img {
+    width: 128px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+section {
+    width: 58%;
+    margin-left: 20px;
+}
+
+aside {
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 20px;
+    background: #0e0e0ea3;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.preco {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    color: #ffffff;
+    background: #c3c88921;
+    padding: 10px;
+}
+
+.confirmar {
+    background: #ce357a;
+    box-shadow: inset 1px 1px 0px #fff, inset 0px -20px 11px #680436;
+    border: 1px solid #690437;
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px;
+    text-transform: lowercase;
+    float: right;
+    font-size: 18px;
+}
+
+.confirmar:active {
+    background: #ce357a;
+    box-shadow: inset 1px 1px 0px #fff, inset 0px 20px 11px #680436;
+    border: 1px solid #690437;
+}
+
+.caixatexto {
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #ffffff3b;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #171717;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
